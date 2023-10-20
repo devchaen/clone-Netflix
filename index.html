@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title 지정 -->
+    <title>Netflix - hello goormie!</title>
+    <!-- shortcut icon 지정 -->
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/rowContainer.css">
+    <link rel="stylesheet" href="styles/billboard.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header navigators -->
+    <header class="header-container">
+        <div class="navigation-container">
+            <img class="logo-button" src="/assets/icon/netflix logo.png">
+            <div class="primary-navigation">
+                <p>홈</p>
+                <p>시리즈</p>
+                <p>영화</p>
+                <p>NEW! 요즘 대세 콘텐츠</p>
+                <p>내가 찜한 리스트</p>
+                <p>언어별로 찾아보기</p>
+            </div> 
+        </div>
+        <div class="navigation-container secondary-navigation">
+            <img class="search-button" src="/assets/icon/search.png">
+            <img class="notification-button" src="/assets/icon/notification.png">
+            <img class="profile-img" src="/assets/icon/netflix-avatar.png">
+            <img class="caret-down" src="/assets/icon/caret-down.png">
+        </div>
+    </header>
+    <!-- Main billboard poster -->
+    <div class="billboard-container">
+        <div class="billboard-box">
+            <img class="static-billboard-img" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVgB-bqGYiDdQga2F6J3wY47_uAtn4q837ZKFyHM2teFaip399A2g68Sc3SfvUep7VYqRI2Cg48-0R9kYfYH7npZKFrR8W_pi8JZ.webp?r=191">
+            <div class="fade-box"></div>
+            <div class="billboard-title">
+                <img class="title-logo" alt="Enola Holmes" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZcFTCYXLMhINvecAr3oLzs6G6aj1sLiH2cr2EQ1AJJOwarfAnfRptBsdezS8GsdTw-_M3jlRqxmywvdawuWl3pt24xfxOBFiS5qKoa-R3BmusU8nIe2zEjC4rWDjdMlJ0BjPgJsB865YsQVFfgRErov5ToUEpL2k9qeV7rPJwtrERbiWTBU-w.webp?r=c7b">
+                <p class="title-description">사라진 엄마를 찾아야 한다! 홈즈 가문답게 탐정 본능 장착하고 런던에 간 에놀라. 하지만 시작부터 도망자 신세의 귀족 청년과 엮여버렸다. 그 와중에 오빠 셜록까지 따돌려야 한다니. 미스터리 가득한 이 모험, 무사히 마칠 수 있을까?</p>
+            </div>
+            <div class="billboard-buttons">
+                <button class="play">
+                    <img src="/assets/icon/play.png">
+                    <span>재생</span>
+                </button>
+                <button class="information">
+                    <img src="/assets/icon/information.png">
+                    <span>상세 정보</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Content silder & footer -->
+    <div class="rowContainer">
+        <p>넷플릭스 인기 콘텐츠</p>
+        <div class="popular-row">
+            <img class="mini-poster" alt="brooklyn-nine-nine" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfe5zVyIHRAcLy9Uvf0FWUV7eZQ-zhDKOQKTjbnZtRj9zBr4pHfrHCssycYKakjto2SMdvGjO6WXRujGpDT2jKzPKAZHoTo0RZo.webp?r=d67">
+            <img class="mini-poster" alt="good-place" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaXMQrl8KEtuTWavZ-AQNnvFzfoK4ydl0iJXHXJ-IgyLrZAyIKO27BR8QWg2fdNx72WB1JJ496fhxKZNSXNnmfDCCJSjOEDYGTtMWmlj-es4ku6lR8x2aFYVyd1uId5157n2.jpg?r=0ff">
+            <img class="mini-poster" alt="mask-girl" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb00fQJjCcPr1racwvb7YkAp_WfkCMPsFPGqQsvGFaK5ntE9Ho1bAgvbvhp9aYnwvDxLt2Y2ZxnKBk2o9c6LfCFn086AlwZWiwM2TpAfjnPU4PSyti7AlL7SnOSShbpv7d6m.jpg?r=3e5">
+            <img class="mini-poster" alt="young-sheldon" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcFKt6VA-SD3_lCpqAXK6snsiEmwaIZuzwp7BtiKOSDrgGxz_A8U6tTvBCb_Oq7Gnsb21HChrDbCpNLXsKXIDMpwk2Ma3oWezcsM2NnRM40_vP9F_XsXU98qdHCtCycVhF2KWSFTjl0Rwedvme4ch78nDozwsiNeBHJ9ADQJT_oQ6ccDtN3BqRAs7zGiz5El7GZCGFwmkJlgvhxctdJy9seRfLN-Xz6aOzAI7P998XrPvj0QWcKmwGtmVWmmkR8BLcicL7TCQqP-MMisAP8vVk9CUFox2aS4DPy8fdNi.webp?r=bdb">
+            <img class="mini-poster" alt="black-mirror" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZLF22m2-EKRto-aeUTfe1w3S5U3Lx7zEodPa_IQiPw0mHrC9QWNmaDVhIFvaJZbFUpy2icN7QuRA6eoJH5WwWzEQRKu-d3OyIOPCm5uiRtc10I3hZkarXvem6EQwsclA1KWIPfhTrB5g6LSFFZsvnn_mJ1v51PZacUFxet7229WV5fQ-y25Dg7fzDsquFyTRlKW_l6lTM6Dt6oLBgZw-lNbdEkLEdhXemNhM6mzq86WMbUyX5FIlVZZb_heRSwodUv1j5jn9kWIZVwd4aZWLMpeHhA4ZSQIbcVPPKSpZ5DYfZBc377gTFWqU8kmGA.jpg?r=c4e">
+        </div>
+        <p>지금 뜨는 콘텐츠</p>
+        <div class="trending-row">
+            <img class="mini-poster" alt="unbreakable-kimmie" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbRkDfdH7Lu3MeRSyklG8fDfmEx9uJElG032TdD3hWwecpfc8enl9TSVULXNZPcOeejm2oeXhVPALSRAwqEaotrO3itg3FzDbDKvx0YCXVmUATNZUVA1BEk6dPduTzR5wP-TJFWVNjHXGiSIvYbcRGS7y9IHY44Ui3uqG87yxYquGCngU0VF6VeRGi38N9tKptZl5k1CRA2WAFoDA2XLyMzDpO4IawZqj0PpZ0UAj4yrgVzPaggF-jKINqo1XTlpOfqgk91Yv9TABgaHsxsB944G0Msae2Z2gJ8vTylqgJUDJ-uOXJHqtZReNEbaMA.jpg?r=c8f">
+            <img class="mini-poster" alt="xiang-jian-ni" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbfPVKg4h1mosZiOfT-eWLaqitNbR7Di4LBhkI8I9s9LqChRX4b0gvEYjywd3b2foCYlt4V4NMpsIvmo7yoKn6xMK_-QVPpNswE.webp?r=fd4">
+            <img class="mini-poster" alt="decision-to-leave" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABclFMa6KRgRcZ5MBkpuukhghj2saMJHfxJyvN4B7DKFa_gWkSoq67PCqJoDuessqb7_5aYy-zoYy3kITiyogljl9B-EwPzJ0By0.webp?r=a6b">
+            <img class="mini-poster" alt="our-times" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQEfa5U2tfKZBwTfd-ElGcLMEp1SDMqSS6C025QYunl7qtYQP6mlFedGyrW7wTWGP64c73OP5zNrhV6nqtwmOBzJiLeZIT2cW6A.webp?r=0f5">
+            <img class="mini-poster" alt="sprited-away" src="https://occ-0-993-988.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdzAdMOs8deEO70dfnR8epom_dZ-I5oBeg8-JVtWHsywTJWgZsModgvNQkAX1qr36HXeZWMbBYRTEdc6poaMsfqkBmPYRjl-S74.webp?r=af3">
+        </div>
+        <div class="footer">
+            <p>@chaehyeonkim</p>
+            <p>9oormthon fullstack training 3rd</p>
+        </div>
+    </div>
+</body>
+</html>
